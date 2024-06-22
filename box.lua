@@ -12,48 +12,48 @@ local ESP = {
     },
     Options = { 
         Teamcheck = false, TeamcheckRGB = Color3.fromRGB(0, 255, 0),
-        Friendcheck = true, FriendcheckRGB = Color3.fromRGB(0, 255, 0),
+        Friendcheck = false, FriendcheckRGB = Color3.fromRGB(0, 255, 0),
         Highlight = false, HighlightRGB = Color3.fromRGB(255, 0, 0),
     },
     Drawing = {
         Chams = {
-            Enabled  = true,
+            Enabled  = false,
             Thermal = true,
-            FillRGB = Color3.fromRGB(119, 120, 255),
+            FillRGB = Color3.fromRGB(255, 28, 28),
             Fill_Transparency = 100,
             OutlineRGB = Color3.fromRGB(119, 120, 255),
             Outline_Transparency = 100,
             VisibleCheck = true,
         },
         Names = {
-            Enabled = true,
+            Enabled = false,
             RGB = Color3.fromRGB(255, 255, 255),
         },
         Flags = {
             Enabled = true,
         },
         Distances = {
-            Enabled = true, 
+            Enabled = false, 
             Position = "Text",
             RGB = Color3.fromRGB(255, 255, 255),
         },
         Weapons = {
-            Enabled = true, WeaponTextRGB = Color3.fromRGB(119, 120, 255),
+            Enabled = false, WeaponTextRGB = Color3.fromRGB(119, 120, 255),
             Outlined = false,
             Gradient = false,
             GradientRGB1 = Color3.fromRGB(255, 255, 255), GradientRGB2 = Color3.fromRGB(119, 120, 255),
         },
         Healthbar = {
-            Enabled = true,  
+            Enabled = false,  
             HealthText = true, Lerp = false, HealthTextRGB = Color3.fromRGB(119, 120, 255),
             Width = 2.5,
-            Gradient = true, GradientRGB1 = Color3.fromRGB(200, 0, 0), GradientRGB2 = Color3.fromRGB(60, 60, 125), GradientRGB3 = Color3.fromRGB(119, 120, 255), 
+            Gradient = true, GradientRGB1 = Color3.fromRGB(0, 200, 0), GradientRGB2 = Color3.fromRGB(60, 60, 125), GradientRGB3 = Color3.fromRGB(255, 0, 0), 
         },
         Boxes = {
-            Animate = true,
+            Animate = false,
             RotationSpeed = 300,
             Gradient = false, GradientRGB1 = Color3.fromRGB(119, 120, 255), GradientRGB2 = Color3.fromRGB(0, 0, 0), 
-            GradientFill = true, GradientFillRGB1 = Color3.fromRGB(119, 120, 255), GradientFillRGB2 = Color3.fromRGB(0, 0, 0), 
+            GradientFill = true, GradientFillRGB1 = Color3.fromRGB(29, 191, 255), GradientFillRGB2 = Color3.fromRGB(0, 0, 0), 
             Filled = {
                 Enabled = true,
                 Transparency = 0.75,
@@ -61,11 +61,11 @@ local ESP = {
             },
             Full = {
                 Enabled = true,
-                RGB = Color3.fromRGB(255, 255, 255),
+                RGB = Color3.fromRGB(0, 0, 0),
             },
             Corner = {
                 Enabled = true,
-                RGB = Color3.fromRGB(255, 255, 255),
+                RGB = Color3.fromRGB(0, 0, 0),
             },
         };
     };
